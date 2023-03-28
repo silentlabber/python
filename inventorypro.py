@@ -20,10 +20,10 @@ class InventoryApp(QMainWindow):
 
         # Set up the database connection
         self.db = connect(
-            host="192.168.50.185",
-            user="root",
-            port="3307",
-            password="10Fb2e06lkjuub*",
+            host="",
+            user="",
+            port="",
+            password="",
             database="inventorypro"
         )
 
